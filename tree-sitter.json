@@ -1,0 +1,36 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "slk",
+      "camelcase": "Slk",
+      "title": "Slk",
+      "scope": "source.slk",
+      "file-types": [
+        "slk"
+      ],
+      "injection-regex": "^slk$",
+      "class-name": "TreeSitterSlk"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "SLK grammar",
+    "authors": [
+      {
+        "name": "nazarpunk",
+        "email": "nazarpunk@gmail.com"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/warraft/tree-sitter-slk"
+    }
+  },
+  "bindings": {
+    "go": false,
+    "python": false,
+    "swift": false,
+    "node": true
+  }
+}
